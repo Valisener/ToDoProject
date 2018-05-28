@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity  {
     private ListView listview;
     String[] titles = new String[]{"Pay Bill","Bill","Tuesday","reading","Trash"};
     String[] description = new String[]{"Credit Card Bill", "Pay Eletric Bill", "Session at 11am","read books","Take out the trash"};
-    String[] date = new String[]{"11/19/2000","5/8/2011","5/2/2012","5/14/2018","5/14/2018"};
+    String[] date = new String[]{"07/19/2005","5/8/2011","5/2/2012","5/14/2018","5/14/2018"};
 
     int[] status = new int[]{0,0,0,0,1};
     int[] ids = new int[]{1,2,3,4,5};
@@ -51,9 +51,6 @@ public class MainActivity extends AppCompatActivity  {
         listview = (ListView) findViewById(R.id.listTasks);
 //      initialize the array list
         modelArrayList=new ArrayList<>();
-
-//        Code below was for testing purposes of deleting the database and such
-        deleteDatabase("task");
 
 //        Create new database helper to deal with database operations
         databaseHelper=new DatabaseHelper(MainActivity.this, Task.TABLE_NAME,null,Task.DATABASE_VERSION);
