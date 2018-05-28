@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">to do project</string>
+
+    <string name="dialog_Hint_Title">Title</string>
+    <string name="dialog_Hint_Description">Description</string>
+
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonSave">Save</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
